@@ -7,12 +7,14 @@ from model import process_image
 
 app = FastAPI()
 
+
 @app.get("/health")
 def health():
     return {"status": "OK"}
 
+
 @app.get("/")
-async def main():
+def main():
     html_content = """
             <body>
             <form action="/ocr/" enctype="multipart/form-data" method="post">
