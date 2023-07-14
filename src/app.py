@@ -17,7 +17,7 @@ def health():
 def main():
     html_content = """
             <body>
-            <form action="/ocr/" enctype="multipart/form-data" method="post">
+            <form action="/ocr" enctype="multipart/form-data" method="post">
             <input name="file" type="file">
             <input type="submit">
             </form>
