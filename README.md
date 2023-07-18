@@ -54,7 +54,7 @@
 ## Как протестировать
 
 1. Склонируйте репозиторий на локальный компьютер;
-2. **В папку src необходимо поместить файл с FAST RCNN. Скачать его по [ссылке](https://drive.google.com/file/d/1Sh4YzBAsY99B2w7-l3zPvMp7cB6aETOp/view?usp=sharing)**
+2. **В папку src необходимо поместить файл с FAST RCNN. Скачать его необходимо  по [ссылке](https://drive.google.com/file/d/1Sh4YzBAsY99B2w7-l3zPvMp7cB6aETOp/view?usp=sharing)**.
 3. Перейдите в папку репозитория;
 4. Установите необходимые пакеты (pip install -r requirements.txt);
 5. Запустите скрипт _app.py_ в папке _src_.
